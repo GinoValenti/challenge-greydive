@@ -44,3 +44,10 @@ backdrop-filter: blur(7.9px);
   }
   
 }
+@media (max-width: 404px) {
+
+  .back{
+    font-size: 10px;
+  }
+  
+}
