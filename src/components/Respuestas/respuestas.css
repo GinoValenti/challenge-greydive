@@ -37,3 +37,10 @@ backdrop-filter: blur(7.9px);
     color: white;
     transition: 500ms ease-in-out;
 }
+@media (max-width: 500px) {
+  .back {
+     font-size: 15px;
+     text-align: center;
+  }
+  
+}
