@@ -19,9 +19,7 @@ const style = {
   };
 function Encuesta() {
     const [show, setShow] = useState(false);
-    console.log(form.items);
     let initialValues = {}
-    console.log(form.items);
     form.items.map(e => Object.defineProperty(initialValues, e.name, { value: '' }))
     const formik = useFormik({
         initialValues: initialValues,

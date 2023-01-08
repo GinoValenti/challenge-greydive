@@ -13,14 +13,12 @@ export function Respuestas() {
                 querySnapshot.forEach((doc)=>{
                     docs.push({...doc.data(),id:doc.id})
                 })
-                console.log(docs);
                 setRespuesta(docs)
             } catch (error) {
                 console.log(error);
             }
         }
         getRespuestas()
-        console.log(respuesta);
    },[])
    return(
     <> <Link className='back' to={"/"}>← Volver al formulario</Link>
