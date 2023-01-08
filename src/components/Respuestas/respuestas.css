@@ -1,0 +1,39 @@
+.text{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(200, 200, 200)
+  }
+  .card{
+
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+border-radius: 1rem;
+   margin: 0 auto;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);
+
+  }
+  .container{
+   height: 100vh;
+   display: flex;
+   gap: 1rem;
+   flex-wrap: wrap;
+  }
+  .marketing-img{
+    height: 400px; 
+  }
+.back{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-size: 19px;
+    text-align: right;
+}
+.back:hover{
+    color: white;
+    transition: 500ms ease-in-out;
+}
