@@ -104,7 +104,7 @@ function Encuesta() {
                 }
         
        
-            <p>Developed by <a className='back' href="">Gino Valenti</a></p>
+            <p>Developed by <a className='back' target="_blank" href="https://github.com/GinoValenti">Gino Valenti</a></p>
             </form>
 
 
