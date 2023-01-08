@@ -7,7 +7,7 @@ Challenge tecnico para greydive realizado por Gino Valenti
 
 # CONSIGNA
 
-Realizar una app en React.js que lea el siguiente archivo <a href:"https://drive.google.com/file/d/1hsOMsEHx5mjFSt0nIPovciai8DdLq0Nu/view">JSON</a> y genere con cada ítem una interfaz de app de encuesta (como Google Forms).
+Realizar una app en React.js que lea el siguiente archivo <a href="https://drive.google.com/file/d/1hsOMsEHx5mjFSt0nIPovciai8DdLq0Nu/view">JSON </a> y genere con cada ítem una interfaz de app de encuesta (como Google Forms).
 En cuanto a diseño y estética tiene que diferir de Google Forms. Podés utilizar cualquier librería que creas necesaria.
 
 Las respuestas de la encuesta deben ser enviadas a una base de datos de Firebase.
