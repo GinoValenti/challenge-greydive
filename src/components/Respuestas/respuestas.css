@@ -28,7 +28,7 @@ backdrop-filter: blur(7.9px);
     height: 400px; 
   }
 .back{
-    text-decoration: none;
+  
     color: rgb(16, 16, 16);
     font-size: 19px;
     text-align: right;
@@ -41,13 +41,6 @@ backdrop-filter: blur(7.9px);
   .back {
      font-size: 15px;
      text-align: center;
-  }
-  
-}
-@media (max-width: 404px) {
-
-  .back{
-    font-size: 10px;
   }
   
 }

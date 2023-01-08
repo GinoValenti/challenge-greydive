@@ -70,9 +70,10 @@ function Encuesta() {
         <div className='cuter-input-container'>
            <div className='bg-next-in'>
             </div>
-            <Link className='back' to={"/respuestas"}>Respuestas →</Link>
+     
            <form onSubmit={formik.handleSubmit} className='form'>
             <h1>Formulario greydive</h1>
+            <p>Developed by <a className='back' href="">Gino Valenti</a></p>
             
                 {
               
