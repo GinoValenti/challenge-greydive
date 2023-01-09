@@ -38,6 +38,7 @@ export function Respuestas() {
   Pais:  {x.value.country_of_origin}
 </p>
 <p className='text'>Fecha de cumpleaños: <br/>{x.value.birth_date} </p>
+<p className='text'>Email: <br/>{x.value.email} </p>
     </div>
     </>
    )) 
